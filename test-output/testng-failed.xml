@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Jp@180393"/>
+    <parameter name="username" value="jayaprakash1803@gmail.com"/>
+    <classes>
+      <class name="day1.CreateNewOpportunity2">
+        <methods>
+          <include name="close"/>
+          <include name="login"/>
+          <include name="CreateOpportunity"/>
+        </methods>
+      </class> <!-- day1.CreateNewOpportunity2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
